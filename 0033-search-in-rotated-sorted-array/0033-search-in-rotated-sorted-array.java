@@ -17,13 +17,16 @@ class Solution {
                     low = mid+1;
                 }
             }
-            else { // Right half is sorted.
+            else if(nums[low]>=nums[mid]){ // Right half is sorted.
                 if(nums[mid] <= target && target <= nums[high]) {
                     low = mid + 1;
                 }
                 else {
                     high = mid-1;
                 }
+            }
+            else {
+                low ++;
             }
         }
 
