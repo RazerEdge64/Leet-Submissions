@@ -20,23 +20,23 @@ class Solution {
         // }
         
         // return result;
+        int[] result = new int[arr.length - k + 1];
+        int start = 0;
+        int end = 0;
+        int sum = 0;
 
-        int[] result = new int[arr.length-k+1];
-
-        int windowStart = 0;
-        int windowSum = 0;
-        for(int windowEnd = 0; windowEnd<arr.length; windowEnd++) {
-            windowSum += arr[windowEnd];
-
-            if(windowEnd >= k-1) {
-                result[windowStart] = windowSum / k;
-                windowSum -= arr[windowStart];
-                windowStart++;
+        while(end<arr.length) {
+            sum += arr[end];
+            if(end >= k-1) {
+                result[start] = sum/k;
+                sum -= arr[start];
+                start++;
             }
+            end ++;
         }
         int ans = 0;
         for(int i=0; i<result.length; i++) {
-            if(result[i] >= threshold) ans ++;
+            if(result[i] >= threshold) ans++;
         }
 
         return ans;
