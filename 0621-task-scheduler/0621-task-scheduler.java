@@ -1,22 +1,26 @@
 class Solution {
+
     public int leastInterval(char[] tasks, int n) {
-        // frequencies of the tasks
-        int[] frequencies = new int[26];
-        for (int t : tasks) {
-            frequencies[t - 'A']++;
+        if (n == 0) return tasks.length;
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
+        Queue<Pair<Integer, Integer>> q = new LinkedList<>();
+        int[] arr = new int[26];
+        for (char c : tasks) arr[c - 'A']++;
+        for (int val : arr) if (val > 0) pq.add(val);
+        int time = 0;
+
+        while ((!pq.isEmpty() || !q.isEmpty())) {
+            time++;
+            if (!pq.isEmpty()) {
+                int val = pq.poll();
+                val--;
+                if (val > 0) q.add(new Pair(val, time + n));
+            }
+
+            if (!q.isEmpty() && q.peek().getValue() == time) pq.add(
+                q.poll().getKey()
+            );
         }
-
-        Arrays.sort(frequencies);
-
-        // max frequency
-        int f_max = frequencies[25];
-        int idle_time = (f_max - 1) * n;
-        
-        for (int i = frequencies.length - 2; i >= 0 && idle_time > 0; --i) {
-            idle_time -= Math.min(f_max - 1, frequencies[i]); 
-        }
-        idle_time = Math.max(0, idle_time);
-
-        return idle_time + tasks.length;
+        return time;
     }
 }
