@@ -1,36 +1,34 @@
 class Solution {
     public List<List<String>> partition(String s) {
+        List<List<String>> result = new ArrayList<>();
         List<String> list = new ArrayList<>();
-        List<List<String>> ans = new ArrayList<>();
-
-        partitionHelper(0, s, list, ans);
-        return ans;
+        if(s == null || s.length()==0) return result;
+        backtrack(0, s, list, result);
+        return result;
     }
 
-    public static void partitionHelper(int index, String s, List<String> list, List<List<String>> ans) {
+    private void backtrack(int index, String s, List<String>list, List<List<String>> result) {
+
         if(index == s.length()) {
-            ans.add(new ArrayList<>(list));
+            result.add(new ArrayList<>(list));
             return;
         }
-
-        for(int i=index ; i<s.length() ; i++) {
-            if(isPalindrome(s, index , i)) {
+        for(int i = index ; i<s.length(); i++) {
+            if(isPalindrome(index, i, s)) {
                 list.add(s.substring(index, i+1));
-                partitionHelper(i+1, s, list, ans);
+                backtrack(i+1, s, list, result);
                 list.remove(list.size()-1);
             }
-
         }
+        
     }
 
-    public static boolean isPalindrome(String s, int start, int end) {
-        while(start<=end) {
-            if(s.charAt(start++) != s.charAt(end--)){
-                return false;
-            }
+
+    private boolean isPalindrome(int start, int end, String s) {
+        while(start < end) {
+            if(s.charAt(start++) != s.charAt(end--)) return false;
         }
+
         return true;
     }
-
-
 }
