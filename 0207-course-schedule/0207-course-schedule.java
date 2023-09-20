@@ -1,31 +1,45 @@
 class Solution {
-public boolean canFinish(int numCourses, int[][] prerequisites) {
-    int[][] matrix = new int[numCourses][numCourses]; // i -> j
-    int[] indegree = new int[numCourses];
-    
-    for (int i=0; i<prerequisites.length; i++) {
-        int ready = prerequisites[i][0];
-        int pre = prerequisites[i][1];
-        if (matrix[pre][ready] == 0)
-            indegree[ready]++; //duplicate case
-        matrix[pre][ready] = 1;
-    }
-    
-    int count = 0;
-    Queue<Integer> queue = new LinkedList();
-    for (int i=0; i<indegree.length; i++) {
-        if (indegree[i] == 0) queue.offer(i);
-    }
-    while (!queue.isEmpty()) {
-        int course = queue.poll();
-        count++;
-        for (int i=0; i<numCourses; i++) {
-            if (matrix[course][i] != 0) {
-                if (--indegree[i] == 0)
-                    queue.offer(i);
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        List<Integer>[] graph = new ArrayList[numCourses];
+        int[] inDegree = new int[numCourses];
+
+        // Intializing the graph
+        for(int i=0; i<numCourses; i++) {
+            graph[i] = new ArrayList<>();
+        }
+
+        // Build the graph
+        for(int[] pair : prerequisites) {
+            graph[pair[1]].add(pair[0]);
+            inDegree[pair[0]]++;
+        }
+
+        Queue<Integer> queue = new LinkedList<>();
+
+        for(int i=0; i< numCourses; i++) {
+            if(inDegree[i] == 0) {
+                queue.add(i);
             }
         }
-    }
-    return count == numCourses;
-}
+
+        int visitedNodes = 0;
+
+        while(!queue.isEmpty()) {
+            int current =  queue.poll();
+            visitedNodes++;
+
+            for(int neighbor : graph[current]) {
+                inDegree[neighbor]--;
+                if(inDegree[neighbor] == 0) {
+                    queue.add(neighbor);
+                }
+            }
+        }
+
+        return visitedNodes == numCourses;
+
+
+
+
+     }
 }
