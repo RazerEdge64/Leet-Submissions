@@ -27,7 +27,7 @@ class Solution {
         while(start <= end) {
             int mid = start + (end - start ) /2;
 
-            if(target == matrix[mid/cols] [mid%cols]) {
+            if(target == matrix[mid/cols] [mid % cols]) {
                 return true;
             }
 
