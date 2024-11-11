@@ -1,80 +1,23 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        // if(matrix == null || matrix.length == 0) {
-        //     return false;
-        // }
-        // int start = 0, rows = matrix.length, cols = matrix[0].length;
-        // int end = rows * cols -1;
-        // while(start <= end) {
-        //     int mid = (start + end) / 2;
-        //     if(matrix[mid / cols] [mid % cols] == target) {
-        //         return true;
-        //     }
-        //     if(matrix[mid / cols][mid % cols] < target) {
-        //         start = mid + 1;
-        //     }
-        //     else {
-        //         end = mid -1;
-        //     }
-        // }
-        // return false;
-
-        if(matrix == null || matrix.length==0 ) return false;
-
-        int start = 0, rows = matrix.length, cols = matrix[0].length;
-        int end = rows * cols -1;
-
-        while(start <= end) {
-            int mid = start + (end - start ) /2;
-
-            if(target == matrix[mid/cols] [mid % cols]) {
-                return true;
+        // int start = 0;
+        for(int i=0; i<matrix.length; i++) {
+            int start = 0;
+            int end = matrix[i].length-1;
+            while(start <= end){
+                int mid = start + (end-start)/2;
+                if(matrix[i][mid] == target) {
+                    return true;
+                }
+                if(target > matrix[i][mid]) {
+                    start = mid+1;
+                }
+                else if(target < matrix[i][mid]) {
+                    end = mid-1;
+                }
             }
-
-            if(target < matrix[mid / cols] [mid % cols]) {
-                end = mid-1;
-            }
-            else {
-                start = mid+1;
-            }
-
         }
 
         return false;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
