@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
 ## String
 |  |
 | ------- |
@@ -35,12 +36,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0382-linked-list-random-node](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0382-linked-list-random-node) |
+| [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
 ## Reservoir Sampling
 |  |
 | ------- |
 | [0382-linked-list-random-node](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0382-linked-list-random-node) |
+| [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
 ## Randomized
 |  |
 | ------- |
 | [0382-linked-list-random-node](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0382-linked-list-random-node) |
+| [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
 <!---LeetCode Topics End-->
