@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0739-daily-temperatures](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0792-binary-search) |
 ## Stack
@@ -51,5 +52,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0792-binary-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0792-binary-search) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
