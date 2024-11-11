@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0739-daily-temperatures) |
+| [0792-binary-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0792-binary-search) |
 ## Stack
 |  |
 | ------- |
@@ -47,4 +48,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0382-linked-list-random-node](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0382-linked-list-random-node) |
 | [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
+## Binary Search
+|  |
+| ------- |
+| [0792-binary-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
