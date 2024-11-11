@@ -8,23 +8,32 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
 
-    ArrayList<Integer> list = new ArrayList<>();
+import java.util.Random;
+
+class Solution {
+    private ListNode head;
+    private Random random;
 
     public Solution(ListNode head) {
-        ListNode temp = head;
-
-        while(temp!=null) {
-            list.add(temp.val);
-            temp = temp.next;
-        }
+        this.head = head;
+        this.random = new Random();
     }
     
     public int getRandom() {
-        int randomIndex = (int) (Math.random() * list.size());
-        System.out.println(randomIndex);
-        return list.get( randomIndex );
+        int index = 1;
+        ListNode current = head;
+        int result = current.val;
+
+        while(current.next != null) {
+            current = current.next;
+            if(random.nextInt(index + 1) == 0) {
+                result = current.val;
+            }
+            index++;
+        }
+
+        return result;
     }
 }
 
