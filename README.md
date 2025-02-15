@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0382-linked-list-random-node](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0382-linked-list-random-node) |
 | [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/RazerEdge64/Leet-Submissions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Reservoir Sampling
 |  |
 | ------- |
@@ -75,4 +76,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
+## Backtracking
+|  |
+| ------- |
+| [2802-find-the-punishment-number-of-an-integer](https://github.com/RazerEdge64/Leet-Submissions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 <!---LeetCode Topics End-->
