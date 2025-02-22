@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
+| [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0739-daily-temperatures](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0792-binary-search) |
 ## Stack
@@ -21,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
@@ -80,4 +82,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/RazerEdge64/Leet-Submissions/tree/master/2802-find-the-punishment-number-of-an-integer) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
