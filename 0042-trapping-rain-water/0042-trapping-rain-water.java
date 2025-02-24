@@ -1,28 +1,31 @@
 class Solution {
     public int trap(int[] height) {
-        int rainwater = 0;
-        int length = height.length;
-        for(int i = 0 ; i<length ; i++) {
-            // Rainwater stored is minimum of max elevation to the left and right.
-            int j = i;
-            int leftMax = 0;
-            int rightMax = 0;
+        int rainWater = 0;
+        int left = 0;
+        int right = height.length - 1;
+        int leftMax = 0;
+        int rightMax = 0;
 
-            while(j>=0) {
-                
-                leftMax = Math.max(leftMax , height[j]);
-                j--;
+        while(left < right) {
+            if(height[left] < height[right]) {
+                if(height[left] >= leftMax) {
+                    leftMax = height[left];
+                }
+                else {
+                    rainWater += leftMax - height[left];
+                }
+                left++;
             }
-
-            j = i;
-
-            while(j<length) {
-                rightMax = Math.max(rightMax, height[j]);
-                j++;
+            else {
+                if(height[right] > rightMax) {
+                    rightMax = height[right];
+                }
+                else {
+                    rainWater += rightMax - height[right];
+                }
+                right--;
             }
-            rainwater += Math.min(leftMax, rightMax) - height[i]; 
         }
-
-        return rainwater;
+        return rainWater;
     }
 }
