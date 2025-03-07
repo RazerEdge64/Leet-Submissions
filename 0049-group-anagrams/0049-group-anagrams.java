@@ -1,40 +1,29 @@
-// class Solution {
-//     public List<List<String>> groupAnagrams(String[] strs) {
-//         Map<String, List<String>> map = new HashMap<>();
-        
-//         for (String word : strs) {
-//             char[] chars = word.toCharArray();
-//             Arrays.sort(chars);
-//             String sortedWord = new String(chars);
-            
-//             List<String> list = map.getOrDefault(sortedWord, new ArrayList<>());
-//             if (!list.isEmpty()) {
-//                 list.add(word);
-//             } else {
-//                 list.add(sortedWord);
-//                 map.put(sortedWord, list);
-//             }
-//         }
-        
-//         return new ArrayList<>(map.values());
-//     }
-// }
-
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        if (strs == null || strs.length == 0) {
-            return new ArrayList<>();
-        }
-        Map<String, List<String>> map = new HashMap<>();
-        for (String s : strs) {
-            char[] ca = s.toCharArray();
-            Arrays.sort(ca);
-            String keyStr = String.valueOf(ca);
-            if(!map.containsKey(keyStr)) {
-                map.put(keyStr, new ArrayList<>());
+        HashMap<String, List<String>> mainMap = new HashMap<>();
+        // key is sorted str ; values are all those which are anagrams.
+
+        for(int i=0; i<strs.length; i++) {
+            String s = strs[i];
+            char[] carr = s.toCharArray();
+            Arrays.sort(carr);
+            String sortedStr = String.valueOf(carr);
+
+            if(mainMap.containsKey(sortedStr)) {
+                mainMap.get(sortedStr).add(s);
             }
-            map.get(keyStr).add(s);
+            else {
+                mainMap.put(sortedStr, new ArrayList<String>());
+                mainMap.get(sortedStr).add(s);
+            }
         }
-        return new ArrayList<>(map.values());
+
+        List<List<String>> result = new ArrayList<>();
+
+        for(List<String> l : mainMap.values()) {
+            result.add(l);
+        }
+
+        return result;
     }
 }
