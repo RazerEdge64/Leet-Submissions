@@ -1,45 +1,29 @@
 class Solution {
     public int evalRPN(String[] tokens) {
-        Stack<Integer> stack = new Stack<>();
-        int res = 0;
-        
-        if(tokens.length == 1) return Integer.parseInt(tokens[0]);
-        
+        Stack<String> stack = new Stack<>();
         for(int i=0; i<tokens.length; i++) {
-            if(tokens[i].equals("+")) {
-                int a = stack.pop();
-                int b = stack.pop();
-                
-                stack.push(a+b);
-
+            String token = tokens[i];
+            if(token.equals("+") || token.equals("-") || token.equals("/") || token.equals("*")) {
+                String token1 = stack.pop();
+                String token2 = stack.pop();
+                int result = 0;
+                if(token.equals("+")) {
+                    result = Integer.parseInt(token1) + Integer.parseInt(token2);
+                }
+                if(token.equals("-")) {
+                    result = Integer.parseInt(token2) - Integer.parseInt(token1);
+                }
+                if(token.equals("*")) {
+                    result = Integer.parseInt(token2) * Integer.parseInt(token1);
+                }
+                if(token.equals("/")) {
+                    result = Integer.parseInt(token2) / Integer.parseInt(token1);
+                }
+                stack.push(result+"");
+                continue;
             }
-            else if(tokens[i].equals("-")) {
-                int a = stack.pop();
-                int b = stack.pop();
-
-                stack.push(b-a);
-
-            }
-            else if(tokens[i].equals("*")) {
-                int a = stack.pop();
-                int b = stack.pop();
-                
-                stack.push(a*b);
-
-            }
-            else if(tokens[i].equals("/")) {
-                int a = stack.pop();
-                int b = stack.pop();
-                
-                stack.push(b/a);
-
-            }
-            else {
-                stack.push(Integer.parseInt(tokens[i]));
-
-            }
+            stack.push(token);
         }
-        
-        return stack.pop();
+        return Integer.parseInt(stack.peek());
     }
 }
