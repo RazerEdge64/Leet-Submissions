@@ -1,23 +1,28 @@
 class MinStack {
-    int min;
+    // Constant time = Hashmap or array because retrieval is o(1)
+    // maybe array list? and maintain a variable with the current index to pop?
     Stack<Integer> stack;
-    
+    Stack<Integer> minStack;
+
     public MinStack() {
         stack = new Stack<>();
-        min = Integer.MAX_VALUE;
+        minStack = new Stack<>();
     }
     
     public void push(int val) {
-        if(val <= min) {
-            stack.push(min);
-            min = val;
-        }
         stack.push(val);
+        if( minStack.isEmpty() || val<=minStack.peek()) {
+            minStack.push(val);
+        }
+        else {
+            minStack.push(minStack.peek());
+        }
     }
     
     public void pop() {
-        if(min == stack.pop()) {
-            min = stack.pop();
+        if(!stack.isEmpty()) {
+            stack.pop();
+            minStack.pop();
         }
     }
     
@@ -26,7 +31,7 @@ class MinStack {
     }
     
     public int getMin() {
-        return min;
+        return minStack.peek();
     }
 }
 
