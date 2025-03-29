@@ -15,26 +15,28 @@
  */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
-        // Level order traversal.
+        Queue<TreeNode> queue = new LinkedList<>();
+        List<Integer> result = new ArrayList<>();
+        if (root == null) return result;
 
-        Queue<TreeNode> q = new LinkedList<>();
-        List<Integer> list = new ArrayList<>();
 
-        if(root == null) return list;
+        queue.offer(root);
 
-        q.offer(root);
-        
-        while(!q.isEmpty()) {
-            int size = q.size();
+        while(!queue.isEmpty()) {
+            int queueSize = queue.size();
+            TreeNode rightMost = null;
 
-            for(int i=0; i<size; i++) {
-                if(i==size-1) list.add(q.peek().val);
-                if(q.peek().left != null) q.offer(q.peek().left);
-                if(q.peek().right != null) q.offer(q.peek().right);
-                q.poll();
+            for(int i=0; i<queueSize; i++) {
+                TreeNode node = queue.poll();
+                rightMost = node;
+
+                if(node.left != null) queue.offer(node.left);
+                if(node.right != null) queue.offer(node.right);
             }
+
+            result.add(rightMost.val);
         }
 
-        return list;
+        return result;
     }
 }
