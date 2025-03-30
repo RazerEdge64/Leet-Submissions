@@ -129,22 +129,26 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0543-diameter-of-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0543-diameter-of-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0100-same-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0199-binary-tree-right-side-view) |
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0543-diameter-of-binary-tree) |
