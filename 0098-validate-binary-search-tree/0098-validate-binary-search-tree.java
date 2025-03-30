@@ -14,22 +14,17 @@
  * }
  */
 class Solution {
-    public boolean validate(TreeNode root, Integer low, Integer high) {
-        // Empty trees are valid BSTs.
-        if (root == null) {
-            return true;
-        }
-        // The current node's value must be between low and high.
-        if ((low != null && root.val <= low) || (high != null && root.val >= high)) {
-            return false;
-        }
-        // The left and right subtree must also be valid.
-        return validate(root.right, root.val, high) && validate(root.left, low, root.val);
+    public boolean isValidBST(TreeNode root) {
+        return bst(root, null, null);
     }
 
-    public boolean isValidBST(TreeNode root) {
-        return validate(root, null, null);
+    private boolean bst(TreeNode root, TreeNode left, TreeNode right) {
+        if(root == null) {
+            return true;
+        }
+
+        if(left != null && root.val <= left.val) return false;
+        if(right != null && root.val >= right.val) return false;
+        return bst(root.left, left, root) && bst(root.right, root, right);
     }
-    
-    
 }
