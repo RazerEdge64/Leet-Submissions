@@ -15,19 +15,24 @@
  */
 class Solution {
     public int goodNodes(TreeNode root) {
-        return dfs(root, root.val);
+        if(root == null) return 0;
+
+        // Need a recursive function to maintain the max.
+        int result = dfs(root, root.val);
+
+        return result;
     }
 
-    private int dfs(TreeNode node, int maxSoFar) {
-        if(node == null) return 0;
+    private int dfs(TreeNode root, int max) {
+        if(root == null) return 0;
 
-        int good = 0;
-        if(node.val >= maxSoFar) good = 1;
+        int count = (root.val >= max) ? 1 : 0;
 
-        int newMax = Math.max(maxSoFar, node.val);
-        good+= dfs(node.left, newMax);
-        good+= dfs(node.right, newMax);
+        int newMax = Math.max(max, root.val);
 
-        return good;
+        count += dfs(root.left, newMax);
+        count += dfs(root.right, newMax);
+
+        return count;
     }
 }
