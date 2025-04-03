@@ -15,23 +15,25 @@
  */
 class Solution {
     public int kthSmallest(TreeNode root, int k) {
-        PriorityQueue<Integer> pq = new PriorityQueue<>();
-        inOrder(root, pq);
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode curr = root;
+        int count = 0;
+        while(curr !=null || !stack.isEmpty()) {
+            while(curr != null) {
+                stack.push(curr);
+                curr = curr.left;
+            }
+            
+            curr = stack.pop();
+            count++;
 
-        while(k>1) {
-            pq.poll();
-            k--;
+            if(count == k) {
+                return curr.val;
+            }
+
+            curr = curr.right;
         }
 
-        return pq.peek();
-    }
-
-    private void inOrder(TreeNode root, PriorityQueue<Integer> pq) {
-        if(root == null) return;
-
-
-        if(root.left != null) inOrder(root.left, pq);
-        pq.add(root.val);
-        if(root.right != null) inOrder(root.right, pq);        
+        return -1;
     }
 }
