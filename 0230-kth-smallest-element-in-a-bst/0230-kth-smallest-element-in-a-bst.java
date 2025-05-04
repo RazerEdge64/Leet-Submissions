@@ -18,14 +18,14 @@ class Solution {
         Stack<TreeNode> stack = new Stack<>();
         TreeNode curr = root;
         int count = 0;
-        while(curr !=null || !stack.isEmpty()) {
+        while(curr != null || !stack.isEmpty()) {
             while(curr != null) {
                 stack.push(curr);
                 curr = curr.left;
             }
-            
+
             curr = stack.pop();
-            count++;
+            count ++;
 
             if(count == k) {
                 return curr.val;
