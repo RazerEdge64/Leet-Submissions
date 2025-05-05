@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0011-container-with-most-water) |
 | [0042-trapping-rain-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0042-trapping-rain-water) |
 | [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0078-subsets) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0239-sliding-window-maximum) |
@@ -106,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0078-subsets) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/RazerEdge64/Leet-Submissions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Sorting
 |  |
@@ -220,4 +222,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
