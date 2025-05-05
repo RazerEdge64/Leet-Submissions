@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [0739-daily-temperatures](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0792-binary-search) |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
 | [0424-longest-repeating-character-replacement](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
+| [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
 ## String
 |  |
@@ -86,11 +88,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0011-container-with-most-water) |
+| [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
 ## Counting
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
 ## Two Pointers
 |  |
@@ -108,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
 ## Divide and Conquer
 |  |
@@ -119,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
+| [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1127-last-stone-weight) |
