@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0011-container-with-most-water) |
 | [0039-combination-sum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0042-trapping-rain-water) |
 | [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0078-subsets) |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0039-combination-sum) |
+| [0040-combination-sum-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0040-combination-sum-ii) |
 | [0078-subsets](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0090-subsets-ii) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/RazerEdge64/Leet-Submissions/tree/master/2802-find-the-punishment-number-of-an-integer) |
