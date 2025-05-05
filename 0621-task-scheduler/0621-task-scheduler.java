@@ -1,26 +1,37 @@
 class Solution {
-
     public int leastInterval(char[] tasks, int n) {
-        if (n == 0) return tasks.length;
-        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> b - a);
-        Queue<Pair<Integer, Integer>> q = new LinkedList<>();
-        int[] arr = new int[26];
-        for (char c : tasks) arr[c - 'A']++;
-        for (int val : arr) if (val > 0) pq.add(val);
+        int[] freq = new int[26];
+
+        for(char c: tasks) {
+            freq[c - 'A'] ++;
+        }
+
+        PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
+
+        for(int f: freq) {
+            if(f>0) pq.offer(f);
+        }
+
         int time = 0;
 
-        while ((!pq.isEmpty() || !q.isEmpty())) {
-            time++;
-            if (!pq.isEmpty()) {
-                int val = pq.poll();
-                val--;
-                if (val > 0) q.add(new Pair(val, time + n));
+        while(!pq.isEmpty()) {
+            List<Integer> temp = new ArrayList<>();
+
+            int i=0;
+            for(; i<=n; i++) {
+                if(!pq.isEmpty()) {
+                    int curr = pq.poll();
+                    if(curr>1) temp.add(curr-1);
+                }
+                time++;
+                if(pq.isEmpty() && temp.isEmpty()) break;
             }
 
-            if (!q.isEmpty() && q.peek().getValue() == time) pq.add(
-                q.poll().getKey()
-            );
+            for(int remaining: temp) pq.offer(remaining);
         }
+
         return time;
+
+
     }
 }
