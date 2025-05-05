@@ -1,30 +1,21 @@
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        List<List<Integer>> res = new ArrayList<>();
-        List<Integer> ds = new ArrayList<>();
-        List<List<Integer>> ans = new ArrayList<>();
-
-        combinationHelper(0, 0, target, candidates, ds, ans);
-
-        return ans;
+        List<List<Integer>> result = new ArrayList<>();
+        backtrack(result, new ArrayList<>(), candidates, target, 0);
+        return result;
     }
 
-    public static void combinationHelper(int index, int sum, int target, int[] candidates, List<Integer> ds, List<List<Integer>> ans) {
-        if( sum == target ) {
-
-            List<Integer> combination = new ArrayList<>(ds);
-            Collections.sort(combination);
-            ans.add(combination);
+    private void backtrack(List<List<Integer>> result, List<Integer> path, int[] candidates, int remaining, int index) {
+        if(remaining == 0) {
+            result.add(new ArrayList<>(path));
             return;
         }
-        else if(sum > target || index == candidates.length) {
-            return;
+        if(remaining < 0) return;
+
+        for(int i=index; i < candidates.length; i++) {
+            path.add(candidates[i]);
+            backtrack(result, path, candidates, remaining - candidates[i], i);
+            path.remove(path.size()-1);
         }
-
-        ds.add(candidates[index]);
-        combinationHelper(index, sum+candidates[index], target, candidates, ds, ans);
-        ds.remove(ds.size()-1);
-        combinationHelper(index+1, sum, target, candidates, ds, ans);
-
     }
 }
