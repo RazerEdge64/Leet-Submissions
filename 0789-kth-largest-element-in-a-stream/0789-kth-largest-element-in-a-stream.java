@@ -1,21 +1,25 @@
 class KthLargest {
-    final PriorityQueue<Integer> heap = new PriorityQueue<>();
-    final int k;
+
+    private final PriorityQueue<Integer> pq;
+    private final int k;
 
     public KthLargest(int k, int[] nums) {
+        this.pq = new PriorityQueue<>();
         this.k = k;
-        for(int n : nums) add(n);    
+
+        for(int i=0; i<nums.length; i++) {
+            pq.offer(nums[i]);
+            if(pq.size() > k) pq.poll();
+        }
     }
     
     public int add(int val) {
-        if(heap.size() < k) heap.offer(val); // adding the values of the array.
-
-        else if (val > heap.peek()) {
-            heap.poll(); // remove the top element.
-            heap.add(val); // add the new element. 
+        pq.offer(val);
+        while(pq.size() > k) {
+            pq.poll();
         }
 
-        return heap.peek();
+        return pq.peek();
     }
 }
 
