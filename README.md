@@ -20,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
 | [0739-daily-temperatures](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0739-daily-temperatures) |
 | [0792-binary-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0792-binary-search) |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
@@ -91,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
 ## Greedy
 |  |
 | ------- |
@@ -178,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -185,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0100-same-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0100-same-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
@@ -243,4 +247,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
