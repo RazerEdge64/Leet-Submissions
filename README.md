@@ -150,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0239-sliding-window-maximum) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
+| [0744-network-delay-time](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1127-last-stone-weight) |
@@ -200,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0744-network-delay-time) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -217,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0542-01-matrix) |
 | [0684-redundant-connection](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0744-network-delay-time) |
 | [1036-rotting-oranges](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
@@ -290,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0261-graph-valid-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0744-network-delay-time) |
 | [1706-min-cost-to-connect-all-points](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
@@ -300,4 +304,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1706-min-cost-to-connect-all-points](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1706-min-cost-to-connect-all-points) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
