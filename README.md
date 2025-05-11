@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1127-last-stone-weight) |
+| [1706-min-cost-to-connect-all-points](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Stack
 |  |
 | ------- |
@@ -280,6 +281,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
+| [1706-min-cost-to-connect-all-points](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Graph
 |  |
 | ------- |
@@ -288,9 +290,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0261-graph-valid-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0261-graph-valid-tree) |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0323-number-of-connected-components-in-an-undirected-graph) |
 | [0684-redundant-connection](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0684-redundant-connection) |
+| [1706-min-cost-to-connect-all-points](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0210-course-schedule-ii) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
