@@ -196,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0417-pacific-atlantic-water-flow](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0543-diameter-of-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0572-subtree-of-another-tree) |
+| [0684-redundant-connection](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0286-walls-and-gates](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0286-walls-and-gates) |
 | [0417-pacific-atlantic-water-flow](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0542-01-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0542-01-matrix) |
+| [0684-redundant-connection](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1036-rotting-oranges) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1544-count-good-nodes-in-binary-tree) |
@@ -273,6 +275,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0200-number-of-islands) |
 | [0261-graph-valid-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0261-graph-valid-tree) |
+| [0684-redundant-connection](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0695-max-area-of-island) |
 ## Graph
 |  |
@@ -280,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0210-course-schedule-ii) |
 | [0261-graph-valid-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0261-graph-valid-tree) |
+| [0684-redundant-connection](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0684-redundant-connection) |
 ## Topological Sort
 |  |
 | ------- |
