@@ -1,27 +1,14 @@
 class Solution {
     public int rob(int[] nums) {
-        int[] memo = new int[nums.length];
+        int n = nums.length;
+        int rob1=0, rob2 = 0;
 
-        Arrays.fill(memo, -1);
-
-        return dynamic(nums, 0, memo);
-    }
-
-    private int dynamic(int[] nums, int index, int[] memo) {
-        if(index >= nums.length) {
-            return 0;
+        for(int i=0; i<n; i++) {
+            int curr = Math.max(nums[i] + rob1, rob2);
+            rob1 = rob2;
+            rob2 = curr;
         }
 
-        if(memo[index] != -1) {
-            return memo[index];
-        }
-
-        int current = nums[index] + dynamic(nums, index+2, memo);
-
-        int skipCurrent = dynamic(nums, index+1, memo);
-
-        memo[index] = Math.max(current, skipCurrent);
-
-        return memo[index];
+        return rob2;
     }
 }
