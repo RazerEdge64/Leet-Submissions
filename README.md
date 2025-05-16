@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0046-permutations) |
 | [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0090-subsets-ii) |
 | [0130-surrounded-regions](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0130-surrounded-regions) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0005-longest-palindromic-substring) |
+| [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
 | [0424-longest-repeating-character-replacement](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
@@ -104,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0200-number-of-islands) |
 | [0286-walls-and-gates](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0286-walls-and-gates) |
@@ -139,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0090-subsets-ii) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/RazerEdge64/Leet-Submissions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 ## Sorting
@@ -200,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0098-validate-binary-search-tree) |
 | [0100-same-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0110-balanced-binary-tree) |
