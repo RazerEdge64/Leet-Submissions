@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0090-subsets-ii) |
 | [0130-surrounded-regions](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0130-surrounded-regions) |
+| [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0198-house-robber) |
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
 | [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
@@ -65,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0005-longest-palindromic-substring) |
 | [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0091-decode-ways) |
+| [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
 | [0424-longest-repeating-character-replacement](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
@@ -185,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0042-trapping-rain-water) |
 | [0091-decode-ways](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0091-decode-ways) |
+| [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0542-01-matrix) |
@@ -335,4 +339,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0744-network-delay-time](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
