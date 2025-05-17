@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0046-permutations) |
+| [0053-maximum-subarray](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0053-maximum-subarray) |
 | [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0053-maximum-subarray) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
 ## Heap (Priority Queue)
@@ -187,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0042-trapping-rain-water) |
+| [0053-maximum-subarray](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0053-maximum-subarray) |
 | [0091-decode-ways](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0198-house-robber) |
