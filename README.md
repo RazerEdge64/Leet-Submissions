@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0005-longest-palindromic-substring) |
 | [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
+| [0091-decode-ways](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0091-decode-ways) |
 | [0424-longest-repeating-character-replacement](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0042-trapping-rain-water) |
+| [0091-decode-ways](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0091-decode-ways) |
 | [0198-house-robber](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0542-01-matrix) |
