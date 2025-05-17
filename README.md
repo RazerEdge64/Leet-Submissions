@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1127-last-stone-weight) |
 | [1706-min-cost-to-connect-all-points](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1706-min-cost-to-connect-all-points) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/RazerEdge64/Leet-Submissions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Stack
 |  |
 | ------- |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [0768-partition-labels](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0768-partition-labels) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/RazerEdge64/Leet-Submissions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Counting
 |  |
 | ------- |
