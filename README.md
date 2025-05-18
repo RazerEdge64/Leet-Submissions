@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0747-min-cost-climbing-stairs) |
 | [0792-binary-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0792-binary-search) |
+| [0876-hand-of-straights](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0876-hand-of-straights) |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
 | [1036-rotting-oranges](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1127-last-stone-weight) |
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [0768-partition-labels](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0768-partition-labels) |
+| [0876-hand-of-straights](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0876-hand-of-straights) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
 ## String
 |  |
@@ -130,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0045-jump-game-ii) |
 | [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [0768-partition-labels](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0768-partition-labels) |
+| [0876-hand-of-straights](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0876-hand-of-straights) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/RazerEdge64/Leet-Submissions/tree/master/2026-merge-triplets-to-form-target-triplet) |
 ## Counting
@@ -165,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
+| [0876-hand-of-straights](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0876-hand-of-straights) |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
 ## Divide and Conquer
 |  |
