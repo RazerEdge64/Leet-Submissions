@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0213-house-robber-ii) |
 | [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0239-sliding-window-maximum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0239-sliding-window-maximum) |
+| [0252-meeting-rooms](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0252-meeting-rooms) |
 | [0286-walls-and-gates](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0286-walls-and-gates) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [0417-pacific-atlantic-water-flow](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0417-pacific-atlantic-water-flow) |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0018-4sum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0018-4sum) |
 | [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
+| [0252-meeting-rooms](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0252-meeting-rooms) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0876-hand-of-straights) |
