@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0042-trapping-rain-water) |
+| [0678-valid-parenthesis-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0678-valid-parenthesis-string) |
 | [0739-daily-temperatures](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0739-daily-temperatures) |
 ## Monotonic Stack
 |  |
@@ -76,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
 | [0424-longest-repeating-character-replacement](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
+| [0678-valid-parenthesis-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0768-partition-labels) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
 ## Sliding Window
@@ -131,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0045-jump-game-ii) |
 | [0621-task-scheduler](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0621-task-scheduler) |
+| [0678-valid-parenthesis-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0768-partition-labels) |
 | [0876-hand-of-straights](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0876-hand-of-straights) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
@@ -208,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0213-house-robber-ii) |
 | [0542-01-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0542-01-matrix) |
+| [0678-valid-parenthesis-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Tree
