@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
 | [0678-valid-parenthesis-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0678-valid-parenthesis-string) |
 | [0768-partition-labels](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0768-partition-labels) |
+| [1250-longest-common-subsequence](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1250-longest-common-subsequence) |
 | [1502-construct-k-palindrome-strings](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1502-construct-k-palindrome-strings) |
 ## Sliding Window
 |  |
@@ -218,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0678-valid-parenthesis-string) |
 | [0747-min-cost-climbing-stairs](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1250-longest-common-subsequence](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1250-longest-common-subsequence) |
 ## Tree
 |  |
 | ------- |
