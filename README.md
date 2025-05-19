@@ -97,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0062-unique-paths) |
 | [0382-linked-list-random-node](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0382-linked-list-random-node) |
 | [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
 | [1014-k-closest-points-to-origin](https://github.com/RazerEdge64/Leet-Submissions/tree/master/1014-k-closest-points-to-origin) |
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0062-unique-paths) |
 | [0091-decode-ways](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0198-house-robber) |
@@ -373,4 +375,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
