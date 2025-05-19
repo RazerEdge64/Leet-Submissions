@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0053-maximum-subarray) |
+| [0056-merge-intervals](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0018-4sum](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0056-merge-intervals) |
 | [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0252-meeting-rooms](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0252-meeting-rooms) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
