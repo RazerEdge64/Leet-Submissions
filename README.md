@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0347-top-k-frequent-elements) |
 | [0398-random-pick-index](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0398-random-pick-index) |
@@ -77,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0424-longest-repeating-character-replacement](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0567-permutation-in-string) |
 | [0678-valid-parenthesis-string](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0678-valid-parenthesis-string) |
@@ -318,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
@@ -371,6 +374,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0139-word-break) |
+| [0208-implement-trie-prefix-tree](https://github.com/RazerEdge64/Leet-Submissions/tree/master/0208-implement-trie-prefix-tree) |
 ## Memoization
 |  |
 | ------- |
