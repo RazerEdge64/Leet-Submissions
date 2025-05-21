@@ -1,76 +1,48 @@
-class Node {
-    Node links[];
-    boolean flag;
-
-    public Node() {
-        links = new Node[26];
-        flag = false;
-    }
-
-    boolean containsKey(char ch) {
-        return (links[ch - 'a'] != null);
-    }
-
-    void put(char ch, Node node) {
-        links[ch-'a'] = node;
-    }
-
-    Node get(char ch) {
-        return links[ch-'a'];
-    }
-
-    void setEnd() {
-        flag = true;
-    }
-
-    boolean isEnd() {
-        return flag;
-    }
+class TrieNode {
+    TrieNode[] children = new TrieNode[26];
+    boolean isWord = false;
 }
-
-
 class Trie {
-    private static Node root;
-    
+    TrieNode root;
+
     public Trie() {
-        root = new Node();
+        root =  new TrieNode();
     }
     
     public void insert(String word) {
+        TrieNode node = root;
+        for(char c : word.toCharArray()) {
+            int i = c - 'a';
 
-        Node node = root;
-        for(int i=0; i<word.length(); i++) {
-            if(!node.containsKey(word.charAt(i))) {
-                node.put(word.charAt(i), new Node());
+            if(node.children[i] == null) {
+                node.children[i] = new TrieNode();
             }
-            node = node.get(word.charAt(i));
+            node = node.children[i];
         }
-        node.setEnd();
+        node.isWord = true;
     }
     
     public boolean search(String word) {
-        Node node = root;
-        for(int i=0; i<word.length(); i++) {
-            if(!node.containsKey(word.charAt(i))) {
-                return false;
-            }
-            node = node.get(word.charAt(i));
+        TrieNode node = root;
+
+        for(char c : word.toCharArray()) {
+            int i = c - 'a';
+            if(node.children[i] == null) return false;
+            node = node.children[i];
         }
-        return node.isEnd();
+
+        return node.isWord;
     }
     
     public boolean startsWith(String prefix) {
-        Node node = root;
-
-        for(int i=0; i<prefix.length(); i++) {
-            if(!node.containsKey(prefix.charAt(i))) {
-                return false;
-            }
-            node = node.get(prefix.charAt(i));
+        TrieNode node = root;
+        for(char c : prefix.toCharArray()) {
+            int i = c - 'a';
+            if(node.children[i] == null) return false;
+            node = node.children[i];
         }
 
         return true;
-
     }
 }
 
